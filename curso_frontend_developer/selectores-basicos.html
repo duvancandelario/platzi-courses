@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores Basicos</title>
+    <style>
+        /*Selector Universal*/
+        /*Añade estilos generales a todo el sitio web*/
+
+        *{
+            background-color: antiquewhite;
+        }
+
+        /*Selector de Tipo*/
+        /*Añade estilos a todos los elementos que coincidan con el nombre de la etiqueta HTML*/
+        div{
+            background-color: lime;
+        }
+
+        /*Selector de Clase*/
+        /*Añade estilos a todos los elementos que concidan con las etiquetas HTML que contengan el atributo CLASS*/
+        .titulo{
+            color: red;
+        }
+
+        /*Selector de ID*/
+        /*Añade estilos al que coincia con el id. Solo puede existir un unico valor id para todo el documento*/
+
+        #titulo2{
+            color: blue;
+        }
+        /*Selector de Atribudo*/
+        /*Añade estilos a la eqtiqeta que contenga el atributo y valor especificado*/
+
+        a[href="https://github.com/duvancandelario"]{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="titulo">Hola</div>
+    <div id="titulo2">Mundo</div>
+    <a href="https://github.com/duvancandelario">Ir a mi perfil de Github</a>
+</body>
+</html>
